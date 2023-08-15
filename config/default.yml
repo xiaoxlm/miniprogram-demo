@@ -1,0 +1,6 @@
+APP1__Logger_Level: ""
+APP1__Logger_Output: Always
+APP1__Server_Mode: debug
+APP1__Server_UseH2C: "true"
+APP1__TestEnv: "123"
+GOENV: DEV
