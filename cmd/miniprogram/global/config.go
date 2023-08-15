@@ -6,20 +6,22 @@ import (
 )
 
 func init() {
-	confserver.SetServiceName("app1", "..")
+	confserver.SetServiceName("miniprogram-demo", "..")
 	confserver.ConfP(&Config)
 	//confserver.AddCommand(Config.MasterDB.Commands()...)
 }
 
 var Config = struct {
-	Logger  *conflogger.Log
-	Server  *confserver.Server
-	TestEnv string `env:""`
+	Logger    *conflogger.Log
+	Server    *confserver.Server
+	AppID     string `env:""` // 小程序 app id
+	AppSecret string `env:""` // 小程序 app secret
 }{
 	Server: &confserver.Server{
 		Port:   80,
 		Mode:   "debug",
 		UseH2C: true,
 	},
-	TestEnv: "123",
+	AppID:     "",
+	AppSecret: "",
 }

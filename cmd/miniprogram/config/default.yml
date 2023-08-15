@@ -1,0 +1,7 @@
+GOENV: DEV
+MINIPROGRAM_DEMO__AppID: ""
+MINIPROGRAM_DEMO__AppSecret: ""
+MINIPROGRAM_DEMO__Logger_Level: ""
+MINIPROGRAM_DEMO__Logger_Output: Always
+MINIPROGRAM_DEMO__Server_Mode: debug
+MINIPROGRAM_DEMO__Server_UseH2C: "true"

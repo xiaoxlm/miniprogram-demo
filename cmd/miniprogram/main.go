@@ -5,7 +5,7 @@ import (
 	"github.com/kunlun-qilian/confserver"
 	"github.com/spf13/cobra"
 	"github.com/xiaoxlm/miniprogram-demo/cmd/miniprogram/global"
-	"github.com/xiaoxlm/miniprogram-demo/pkg/miniprogram/router"
+	"github.com/xiaoxlm/miniprogram-demo/pkg/mvc/router"
 )
 
 func main() {
