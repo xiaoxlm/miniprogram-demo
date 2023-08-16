@@ -7,11 +7,11 @@ import (
 )
 
 const (
-	GROUP_PATH = "/miniprogram-demo/api"
+	GroupPath = "/miniprogram/api"
 )
 
 func NewRooter(r *gin.Engine) {
-	v1 := r.Group(GROUP_PATH + "/v1")
+	v1 := r.Group(GroupPath + "/v1")
 	v1.GET("/test", test.Test)
 
 	wechat.Router(v1)

@@ -1,7 +1,9 @@
 GOENV: DEV
 MINIPROGRAM_DEMO__AppID: ""
 MINIPROGRAM_DEMO__AppSecret: ""
+MINIPROGRAM_DEMO__ClientID: ops_user
+MINIPROGRAM_DEMO__ClientSecret: vK84Cjem1K3WkCD3kKAJe9s3qSqF51aq
 MINIPROGRAM_DEMO__Logger_Level: ""
 MINIPROGRAM_DEMO__Logger_Output: Always
-MINIPROGRAM_DEMO__Server_Mode: debug
+MINIPROGRAM_DEMO__Server_Mode: release
 MINIPROGRAM_DEMO__Server_UseH2C: "true"

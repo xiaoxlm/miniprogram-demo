@@ -3,7 +3,9 @@ module github.com/xiaoxlm/miniprogram-demo
 go 1.19
 
 require (
+	github.com/ArtisanCloud/PowerWeChat/v3 v3.0.59
 	github.com/gin-gonic/gin v1.9.1
+	github.com/golang-jwt/jwt/v5 v5.0.0
 	github.com/kunlun-qilian/conflogger v0.1.0
 	github.com/kunlun-qilian/confserver v0.7.0
 	github.com/spf13/cobra v1.7.0
@@ -11,8 +13,6 @@ require (
 
 require (
 	github.com/ArtisanCloud/PowerLibs/v3 v3.0.12 // indirect
-	github.com/ArtisanCloud/PowerSocialite/v3 v3.0.6 // indirect
-	github.com/ArtisanCloud/PowerWeChat/v3 v3.0.59 // indirect
 	github.com/KyleBanks/depth v1.2.1 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
@@ -65,14 +65,12 @@ require (
 	github.com/swaggo/swag v1.16.1 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
-	github.com/wechatpay-apiv3/wechatpay-go v0.2.17 // indirect
 	go.opentelemetry.io/contrib/instrumentation/github.com/gin-gonic/gin/otelgin v0.42.0 // indirect
 	go.opentelemetry.io/contrib/propagators/b3 v1.17.0 // indirect
 	go.opentelemetry.io/otel v1.16.0 // indirect
 	go.opentelemetry.io/otel/metric v1.16.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.16.0 // indirect
 	go.opentelemetry.io/otel/trace v1.16.0 // indirect
-	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.25.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
